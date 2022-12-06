@@ -37,6 +37,15 @@ class DemoUtilsTest {
         System.out.println("Running @AfterAll method that executes after all methods are executed");
     }
 
+    @Test
+    void testMultiply(){
+
+        System.out.println("Inside testMultiply method.........");
+
+        assertEquals(20, demoUtils.multiply(4,5), "5x4 has to be 20! Check inputs in demoUtils.multiply method"); // asserts that method is returning expected value
+
+    }
+
 
     @Test
     void testEqualsAndNotEquals(){

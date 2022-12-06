@@ -65,22 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testIterableEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testIterableEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoUtilsTest.testLineMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
@@ -92,6 +76,22 @@
       <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
       <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
       <option name="METHOD_NAME" value="testLineMatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoUtilsTest.testMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
+      <option name="METHOD_NAME" value="testMultiply" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DemoUtilsTest" />
+        <item itemvalue="JUnit.DemoUtilsTest.testMultiply" />
         <item itemvalue="JUnit.DemoUtilsTest.testThrowsAndNotThrow" />
         <item itemvalue="JUnit.DemoUtilsTest.testTimeout" />
         <item itemvalue="JUnit.DemoUtilsTest.testLineMatch" />
-        <item itemvalue="JUnit.DemoUtilsTest.testIterableEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -165,5 +165,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../../repos" />
     </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/1_00_starting_project$DemoUtilsTest.ic" NAME="DemoUtilsTest Coverage Results" MODIFIED="1670323009869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.luv2code.junitdemo.*</FILTER>
+    </SUITE>
   </component>
 </project>
