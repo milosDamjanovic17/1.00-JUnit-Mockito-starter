@@ -8,6 +8,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayNameGeneration(DisplayNameGenerator.IndicativeSentences.class)
+@TestMethodOrder(MethodOrderer.Random.class) // it will randomly order test executions, good for checking that test are dependency independent
 class DemoUtilsTest {
 
     DemoUtils demoUtils;
