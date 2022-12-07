@@ -1,6 +1,8 @@
 package com.luv2code.junitdemo;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.EnabledOnJre;
+import org.junit.jupiter.api.condition.JRE;
 
 import java.time.Duration;
 import java.util.List;
@@ -48,6 +50,7 @@ class DemoUtilsTest {
 
 
     @Test
+    @EnabledOnJre(JRE.JAVA_18)
     void testEqualsAndNotEquals(){
 
         System.out.println("Inside testEqualsAndNotEquals method");

@@ -10,6 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/test-result-reports" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,7 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/Downloads/Java-Spring-JDK-Hibernate-Validator-Tomcat-JAR/JUnit Mockito/Chad Exercise Projects/spring-boot-unit-testing-main/spring-boot-unit-testing-main/1.00-starting-project/.idea&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -49,7 +50,43 @@
       <recent name="F:\Downloads\Java-Spring-JDK-Hibernate-Validator-Tomcat-JAR\JUnit Mockito\Chad Exercise Projects\spring-boot-unit-testing-main\spring-boot-unit-testing-main\1.00-starting-project\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoUtilsTest">
+  <component name="RunManager" selected="JUnit.ConditionalTest">
+    <configuration name="ConditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.ConditionalTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="MOOSE_ENV = DEV" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.ConditionalTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <envs>
+        <env name="MOOSE_ENV" value="DEV" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
@@ -65,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testLineMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoUtilsTest.testEqualsAndNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
       <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testLineMatch" />
+      <option name="METHOD_NAME" value="testEqualsAndNotEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,45 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testThrowsAndNotThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testThrowsAndNotThrow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoUtilsTest.testTimeout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testTimeout" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionalTest" />
+        <item itemvalue="JUnit.ConditionalTest" />
         <item itemvalue="JUnit.DemoUtilsTest" />
+        <item itemvalue="JUnit.DemoUtilsTest.testEqualsAndNotEquals" />
         <item itemvalue="JUnit.DemoUtilsTest.testMultiply" />
-        <item itemvalue="JUnit.DemoUtilsTest.testThrowsAndNotThrow" />
-        <item itemvalue="JUnit.DemoUtilsTest.testTimeout" />
-        <item itemvalue="JUnit.DemoUtilsTest.testLineMatch" />
       </list>
     </recent_temporary>
   </component>
