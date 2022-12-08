@@ -40,21 +40,18 @@ class ConditionalTest {
     @EnabledOnJre(JRE.JAVA_18)
     void testForJavaJRE18(){
         // currently we are running 17.0.5 in this project
-		// run this test only if we are using JRE 18
     }
 
     @Test
     @EnabledOnJre(JRE.JAVA_8)
     void testForJavaJRE8(){
         // currently we are running 17.0.5 in this project
-		// run this test only if we are using JRE 8
     }
 
     @Test
     @EnabledOnJre(JRE.JAVA_17)
     void testForJavaJRE17(){
         // currently we are running 17.0.5 in this project
-		// run this test only if we are using JRE 17
     }
 
     @Test

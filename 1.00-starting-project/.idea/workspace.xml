@@ -46,11 +46,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.luv2code.tdd" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Downloads\Java-Spring-JDK-Hibernate-Validator-Tomcat-JAR\JUnit Mockito\Chad Exercise Projects\spring-boot-unit-testing-main\spring-boot-unit-testing-main\1.00-starting-project\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionalTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration name="ConditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
@@ -87,48 +90,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+          <option name="PATTERN" value="com.luv2code.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
+      <option name="PACKAGE_NAME" value="com.luv2code.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.FizzBuzzTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testEqualsAndNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.testForDivisibleByFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+          <option name="PATTERN" value="com.luv2code.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testEqualsAndNotEquals" />
+      <option name="PACKAGE_NAME" value="com.luv2code.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testForDivisibleByFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.testForDivisibleByThreeAndFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+          <option name="PATTERN" value="com.luv2code.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testMultiply" />
+      <option name="PACKAGE_NAME" value="com.luv2code.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testForDivisibleByThreeAndFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.testForNotDivisibleByThreeOrFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testForNotDivisibleByThreeOrFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.testForNotDivisibleByThreeOrFive" />
+        <item itemvalue="JUnit.FizzBuzzTest.testForDivisibleByThreeAndFive" />
+        <item itemvalue="JUnit.FizzBuzzTest.testForDivisibleByFive" />
         <item itemvalue="JUnit.ConditionalTest" />
-        <item itemvalue="JUnit.ConditionalTest" />
-        <item itemvalue="JUnit.DemoUtilsTest" />
-        <item itemvalue="JUnit.DemoUtilsTest.testEqualsAndNotEquals" />
-        <item itemvalue="JUnit.DemoUtilsTest.testMultiply" />
       </list>
     </recent_temporary>
   </component>
