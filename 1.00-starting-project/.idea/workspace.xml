@@ -37,36 +37,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Downloads/Java-Spring-JDK-Hibernate-Validator-Tomcat-JAR/JUnit Mockito/Chad Exercise Projects/spring-boot-unit-testing-main/spring-boot-unit-testing-main/1.00-starting-project/.idea&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/Downloads/Java-Spring-JDK-Hibernate-Validator-Tomcat-JAR/JUnit Mockito/Chad Exercise Projects/spring-boot-unit-testing-main/spring-boot-unit-testing-main/1.00-starting-project/src/test/resources",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.luv2code.tdd" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Downloads\Java-Spring-JDK-Hibernate-Validator-Tomcat-JAR\JUnit Mockito\Chad Exercise Projects\spring-boot-unit-testing-main\spring-boot-unit-testing-main\1.00-starting-project\src\test\resources" />
       <recent name="F:\Downloads\Java-Spring-JDK-Hibernate-Validator-Tomcat-JAR\JUnit Mockito\Chad Exercise Projects\spring-boot-unit-testing-main\spring-boot-unit-testing-main\1.00-starting-project\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration name="ConditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.MainApp" />
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+          <option name="PATTERN" value="com.luv2code.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.ConditionalTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="MOOSE_ENV = DEV" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.testForDivisibleByFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.testCsvDataFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
@@ -115,23 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.tdd" />
       <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testForDivisibleByFive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.testForDivisibleByThreeAndFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.tdd" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testForDivisibleByThreeAndFive" />
+      <option name="METHOD_NAME" value="testCsvDataFile(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,13 +134,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest.testSmallDataFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testSmallDataFile(int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.FizzBuzzTest.testCsvDataFile" />
+        <item itemvalue="JUnit.FizzBuzzTest.testSmallDataFile" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBuzzTest.testForNotDivisibleByThreeOrFive" />
-        <item itemvalue="JUnit.FizzBuzzTest.testForDivisibleByThreeAndFive" />
-        <item itemvalue="JUnit.FizzBuzzTest.testForDivisibleByFive" />
-        <item itemvalue="JUnit.ConditionalTest" />
       </list>
     </recent_temporary>
   </component>
