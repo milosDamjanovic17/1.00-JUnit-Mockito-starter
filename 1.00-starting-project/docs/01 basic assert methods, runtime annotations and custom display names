@@ -1,0 +1,46 @@
+
+
+
+*JUnit Basic Test Methods* -> org.junit.jupiter.api.Assertions
+
+1. They are always void
+2. It's recommended for test classes and methods to have default access modifier(no access modifier)
+3. Methods need to be annotated with @Test/@
+
+	assertEquals -> asserts that values are equal to expected value
+	assertNotEquals -> asserts that values don't match to expected value
+	assertNull -> asserts that value is null
+	assertNotNull -> asserts that value isn't null
+
+
+
+*JUnit Common Annotations*
+
+	@BeforeAll -> Test method is executed only once and before all test methods: useful in getting database connections, connecting to servers....
+	@AfterAll -> Test method is executed only once and after all test methods are done: useful in releasing/closing database connections, disconnecting from servers....
+
+	@BeforeEach -> Runs before each test method within test Class, commonly used in testing and creating objects and set up test data
+	@AfterEach -> Runs after each test method within test Class, mainly used for releaseing resources, objects and test data declared in @BeforeEach test method
+
+
+Execution sequence: @BeforeAll -> @BeforeEach -> @TestMethod1 -> @AfterEach -> @BeforeEach -> @TestMethod2 -> @AfterEach -> @AfterAll
+
+
+
+*Custom Display Names Annotations*
+
+@DisplayName("Our custom test name") -> Defines custom name for test method
+
+JUnit can generate custom defined name for us ( @DisplayNameGeneration -> needs to be annotated on test class signature):
+
+	@DisplayNameGeneration (DisplayNameGenerator.Simple.class) -> Removes trailing parentheses from test method name
+	@DisplayNameGeneration (DisplayNameGenerator.ReplaceUnderscores.class) -> Removes underscores from method signature, and replaces them with white space
+	@DisplayNameGeneration (DisplayNameGenerator.IndicativeSentences.class) -> Shows method as: <TestClassName>, <TestMethodName>
+
+
+
+
+
+
+
+
