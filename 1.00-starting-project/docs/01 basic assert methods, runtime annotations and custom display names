@@ -5,13 +5,33 @@
 
 1. They are always void
 2. It's recommended for test classes and methods to have default access modifier(no access modifier)
-3. Methods need to be annotated with @Test/@
+3. Methods need to be annotated with @Test/@ParameterizedTest
 
 	assertEquals -> asserts that values are equal to expected value
 	assertNotEquals -> asserts that values don't match to expected value
 	assertNull -> asserts that value is null
 	assertNotNull -> asserts that value isn't null
 
+	// Pointer & true/false asserts:
+
+		assertSame -> asserts that given items are referring to same object
+		assertNotSame -> asserts that given items do not refer to same object
+
+		assertTrue(methodFromClass(conditionX, conditionY)) -> asserts that condition returns true
+		assertFalse(methodFromClass(conditionX, conditionY)) -> asserts that condition returns false
+
+	// Collection asserts:
+		
+		assertArrayEquals(<expectedArray>, <methodFromClass>, <errorMsg>) -> asserts that both object arrays are deeply equal
+		assertIterableEquals(<expectedIterable>, <collectionFromClass>, <errorMsg>) -> asserts that collection values are same //all collection that implements interface Iterable(ArrayList, LinkedList, HashMap, HashSet etc....)
+		assetLinesMatch(<expectedCollection>), <collectionFromClass>, <errorMsg> -> Assert that both lists of strings match
+
+	// Exception asserts:
+	
+		assertThrows(<Exception.class>, () -> {methodThatThrowsException(<inputThatShouldThrowException>)}, <msg>) -> asserts that given executable throws an Exception	
+		assertDoesNotThrow(() -> {methodThatThrowsException(<inputThatShouldThrowException>)}, <msg>) -> asserts that given executable DOES NOT throw an Exception
+
+		assertTimeoutPreemptively (<Duration.ofSeconds(x)>, () -> {methodFromClass}, <msg>) -> asserts that given method completes before given timeout is exceeded 
 
 
 *JUnit Common Annotations*
@@ -36,6 +56,17 @@ JUnit can generate custom defined name for us ( @DisplayNameGeneration -> needs 
 	@DisplayNameGeneration (DisplayNameGenerator.Simple.class) -> Removes trailing parentheses from test method name
 	@DisplayNameGeneration (DisplayNameGenerator.ReplaceUnderscores.class) -> Removes underscores from method signature, and replaces them with white space
 	@DisplayNameGeneration (DisplayNameGenerator.IndicativeSentences.class) -> Shows method as: <TestClassName>, <TestMethodName>
+
+
+
+*Running methods in specific order*
+
+@TestMethodOrder -> Configures the order/sort algorithm for the test methods, annotation goes on test class signature
+
+	@TestMethodOrder(MethodOrderer.DisplayName.class) -> Sorts by A-Z order
+	@TestMethodOrder(MethodOrderer.Random.class) -> Random order, good use case for verifying that test methods are independent
+	@TestMethodOrder(MethodOrderer.OrderAnnotation.class) -> Orders by @Order on each test method given by user -> @Order(x)
+
 
 
 
