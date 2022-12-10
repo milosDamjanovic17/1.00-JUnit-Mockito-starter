@@ -24,3 +24,8 @@
 
 @EnabledForJreRange(min = JRE.JAVA_8) -> only Java8 and above is accepted
 
+
+@EnabledIfSystemProperty -> Enable test based on system property
+
+@EnabledIfEnvironmentVariable -> Enable test based on environment variable
+
