@@ -1,0 +1,26 @@
+
+
+*CONDITIONAL JUNIT TESTS*
+
+
+@Disabled -> Disables annotated method
+
+@EnabledOnOs -> Run only if the given method runs on given/specified OS
+
+	@EnabledOnOs(OS.WINDOWS) -> executes only if test is running on winOS
+				(OS.MAC)
+				(OS.LINUX)
+				(OS.UNIX)
+				({OS.WINDOWS, OS.MAC}) -> executes only it test is running on winOS OR macOS
+
+
+
+@EnabledOnJre -> runs only on given Java version
+
+	@EnabledOnJre(JRE.JAVA_11) -> test will run if we use java jre 11
+
+@EnabledForJreRange(min = JRE.JAVA_7, max = JRE.JAVA_11) -> minimum req is java7, max req is java11	
+
+
+@EnabledForJreRange(min = JRE.JAVA_8) -> only Java8 and above is accepted
+
