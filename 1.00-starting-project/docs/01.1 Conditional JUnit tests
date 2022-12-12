@@ -17,7 +17,7 @@
 
 @EnabledOnJre -> runs only on given Java version
 
-	@EnabledOnJre(JRE.JAVA_11) -> test will run if we use java jre 11
+	@EnabledOnJre(JRE.JAVA_11) -> test will run ONLY if we use java jre 11
 
 @EnabledForJreRange(min = JRE.JAVA_7, max = JRE.JAVA_11) -> minimum req is java7, max req is java11	
 
